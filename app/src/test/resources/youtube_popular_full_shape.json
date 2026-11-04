@@ -1,0 +1,215 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "etag-sample",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "etag-sample-1",
+      "id": "sampleVid01",
+      "snippet": {
+        "publishedAt": "2026-10-23T11:43:56Z",
+        "channelId": "UCsampleChannel01",
+        "title": "Sample video 1",
+        "description": "Sample description 1.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sampleVid01/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sampleVid01/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sampleVid01/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sampleVid01/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sampleVid01/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sample channel 1",
+        "tags": [
+          "sample",
+          "tag 1"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Sample video 1",
+          "description": "Sample description 1."
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "etag-sample-2",
+      "id": "sampleVid02",
+      "snippet": {
+        "publishedAt": "2026-10-28T11:00:10Z",
+        "channelId": "UCsampleChannel02",
+        "title": "Sample video 2",
+        "description": "Sample description 2.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sampleVid02/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sampleVid02/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sampleVid02/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sampleVid02/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sampleVid02/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sample channel 2",
+        "tags": [
+          "sample",
+          "tag 2"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Sample video 2",
+          "description": "Sample description 2."
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "etag-sample-3",
+      "id": "sampleVid03",
+      "snippet": {
+        "publishedAt": "2026-10-31T04:54:52Z",
+        "channelId": "UCsampleChannel03",
+        "title": "Sample video 3",
+        "description": "Sample description 3.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sampleVid03/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sampleVid03/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sampleVid03/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sampleVid03/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sampleVid03/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sample channel 3",
+        "tags": [
+          "sample",
+          "tag 3"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Sample video 3",
+          "description": "Sample description 3."
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "etag-sample-4",
+      "id": "sampleVid04",
+      "snippet": {
+        "publishedAt": "2026-10-09T07:00:16Z",
+        "channelId": "UCsampleChannel04",
+        "title": "Sample video 4",
+        "description": "Sample description 4.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sampleVid04/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sampleVid04/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sampleVid04/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sampleVid04/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sampleVid04/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sample channel 4",
+        "tags": [
+          "sample",
+          "tag 4"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Sample video 4",
+          "description": "Sample description 4."
+        },
+        "defaultAudioLanguage": "en"
+      }
+    }
+  ],
+  "nextPageToken": "CAQQAA",
+  "pageInfo": {
+    "totalResults": 200,
+    "resultsPerPage": 4
+  }
+}

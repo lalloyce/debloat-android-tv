@@ -1,0 +1,8 @@
+# Round 1: Google voice and the stock home's recommendations. Nobody in the reference household uses voice.
+# Evidence: PSS read on the TV: katniss:search 75,989 kB and katniss:interactor 31,119 kB (snapshot, with YouTube and
+# Netflix open), interactor 34,565 kB in the baseline; tvrecommendations 11,800 kB (snapshot). The packages were idle at
+# the moment of the 19:3x survey, so these savings come and go with use.
+# CleanYourTV's list for this device (examples/tcl-40s5400a) disables all three.
+com.google.android.katniss             # Google search and voice
+com.google.android.tv.assistant        # Assistant stub, idle; goes with katniss (reference)
+com.google.android.tvrecommendations   # stock home's recommendation rows; our launcher does not use them

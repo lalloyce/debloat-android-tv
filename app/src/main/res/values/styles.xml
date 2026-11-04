@@ -1,0 +1,19 @@
+<resources>
+    <style name="HeaderIcon">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/icon_bg</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="GlassDialog" parent="android:Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/glass_panel</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.55</item>
+        <item name="android:textColorPrimary">#FFFFFFFF</item>
+        <item name="android:textColorSecondary">#CCFFFFFF</item>
+    </style>
+</resources>

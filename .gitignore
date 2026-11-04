@@ -33,3 +33,12 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Project-specific
+secrets.properties
+.superpowers/
+recovery-*.txt
+cleanup/state/
+scripts/env.local.sh
+cleanup/measurements/
+.DS_Store

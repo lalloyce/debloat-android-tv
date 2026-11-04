@@ -1,0 +1,43 @@
+# Never disable these: the network path, the remote path and the system core.
+# Names read from the TV on 2026-11-03. Add whatever re-enables network debugging once it is found.
+com.android.bluetooth
+com.tcl.tcl_bt_rcu_service
+com.tcl.autopair
+com.tcl.system.server
+com.android.providers.tv
+com.android.providers.settings
+com.android.providers.media
+com.android.providers.media.module
+com.tcl.providers.config
+com.android.tv.settings
+com.tcl.settings
+com.android.networkstack.inprocess
+com.android.networkstack.permissionconfig
+com.android.networkstack.tethering.inprocess
+com.android.captiveportallogin
+com.android.wifi.resources
+com.tcl.wifi.resources.overlay
+com.android.systemui
+com.google.android.packageinstaller
+com.google.android.permissioncontroller
+com.google.android.webview
+com.tcl.android.webview
+com.google.android.inputmethod.latin
+com.tcl.inputmethod.international
+# Holds the saved Wi-Fi network on some units; stays until proven otherwise (not proven either way).
+com.google.android.tungsten.setupwraith
+# From CleanYourTV's "do not disable" notes for this device code (examples/tcl-40s5400a); not re-tested here.
+# location.fused boot-looped one unit into recovery; the others are remote, settings and update plumbing.
+com.android.location.fused
+com.tcl.messagebox
+com.tcl.keyhelp
+com.tcl.dashboard
+com.tcl.suspension
+# Added after the whole-branch review. Roles inferred from the package names, not read from this TV:
+# shell is adb's own identity (the recovery path); gsf serves the Play Store and Play services; externalstorage serves USB
+# drives; providers.downloads serves downloads; ext.services was seen running.
+com.android.shell
+com.google.android.gsf
+com.android.externalstorage
+com.android.providers.downloads
+com.google.android.ext.services

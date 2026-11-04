@@ -1,0 +1,52 @@
+plugins {
+    id 'com.android.application'
+}
+
+def secrets = new Properties()
+def secretsFile = rootProject.file('secrets.properties')
+if (secretsFile.exists()) {
+    secretsFile.withInputStream { secrets.load(it) }
+}
+
+android {
+    namespace 'family.tvhome'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'family.tvhome'
+        minSdk 30
+        targetSdk 34
+        versionCode 1
+        versionName '0.1'
+        buildConfigField 'String', 'YOUTUBE_API_KEY', "\"${secrets.getProperty('YOUTUBE_API_KEY', '')}\""
+        buildConfigField 'String', 'REGION_CODE', "\"${secrets.getProperty('REGION_CODE', 'US')}\""
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            // Installed over adb only, never published, so the debug key is enough.
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+}

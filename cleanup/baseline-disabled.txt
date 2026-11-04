@@ -1,0 +1,5 @@
+au.com.stan.and
+com.google.android.tvlauncher
+com.google.android.videos
+com.tcl.smartalexa
+tv.wuaki.apptv

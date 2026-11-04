@@ -1,0 +1,5 @@
+# Round 3: TGuard alone, because its role is uncertain. It runs TCL's memory manager (the log shows
+# TGuardMemoryManagerKillHandler "killCache" lines), so disabling it could help or hurt. Keep it off only if the
+# measurement and your own checks show an improvement.
+# Evidence: PSS 11,895 kB on the TV. CleanYourTV's list for this device disables it ("cleaner/support").
+com.tcl.guard                          # TCL cleaner and support

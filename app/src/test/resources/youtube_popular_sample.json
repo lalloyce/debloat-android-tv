@@ -1,0 +1,38 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "hand-made-fixture",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "id": "aaaaaaaaaaa",
+      "snippet": {
+        "title": "First video",
+        "thumbnails": {
+          "default": {"url": "https://i.ytimg.com/vi/aaaaaaaaaaa/default.jpg", "width": 120, "height": 90},
+          "medium": {"url": "https://i.ytimg.com/vi/aaaaaaaaaaa/mqdefault.jpg", "width": 320, "height": 180},
+          "high": {"url": "https://i.ytimg.com/vi/aaaaaaaaaaa/hqdefault.jpg", "width": 480, "height": 360}
+        }
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "bbbbbbbbbbb",
+      "snippet": {
+        "title": "Second video",
+        "thumbnails": {
+          "default": {"url": "https://i.ytimg.com/vi/bbbbbbbbbbb/default.jpg", "width": 120, "height": 90},
+          "high": {"url": "https://i.ytimg.com/vi/bbbbbbbbbbb/hqdefault.jpg", "width": 480, "height": 360}
+        }
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "snippet": {"title": "No id, must be skipped", "thumbnails": {}}
+    },
+    {
+      "kind": "youtube#video",
+      "id": "ddddddddddd",
+      "snippet": {"thumbnails": {}}
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="inputs">Inputs</string>
+    <string name="network">Network</string>
+    <string name="settings">Settings</string>
+    <string name="apps">Apps</string>
+    <string name="not_available">Not available</string>
+    <string name="tile_not_available">%1$s is not available</string>
+</resources>

@@ -1,0 +1,19 @@
+# Never disable these: apps and services the reference TV's household uses (a different household will want a different list).
+com.android.vending
+com.google.android.gms
+com.google.android.apps.mediashell
+com.google.android.youtube.tv
+com.netflix.ninja
+# Needed by this project: the phone remote, our launcher, live TV, inputs, the TCL Movies tile.
+com.google.android.tv.remote.service
+family.tvhome
+com.tcl.tv
+com.tcl.tvinput
+com.tcl.waterfall.overseas
+# USB playback stays: the household sometimes plays media from USB drives.
+com.tcl.ui_mediaCenter
+com.tcl.videoplayer
+com.tcl.imageplayer
+com.tcl.audioplayer
+# The firmware updater stays by default; disabling it means the TV never updates itself.
+com.tcl.ttvs

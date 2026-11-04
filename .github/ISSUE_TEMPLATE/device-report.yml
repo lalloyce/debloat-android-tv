@@ -1,0 +1,39 @@
+name: Device report
+description: Tell us what worked and what broke on your TV
+labels: [device]
+body:
+  - type: input
+    id: tv
+    attributes:
+      label: TV make and model
+      description: Plus the output of `adb shell getprop ro.build.fingerprint`
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+    validations:
+      required: true
+  - type: dropdown
+    id: part
+    attributes:
+      label: What did you try?
+      multiple: true
+      options:
+        - The launcher
+        - Cleanup rounds
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What worked, what broke, what came back after a reboot
+      description: Package names and the exact commands help. Remove your IP address and account names.
+    validations:
+      required: true
+  - type: textarea
+    id: unchecked
+    attributes:
+      label: What you did not check

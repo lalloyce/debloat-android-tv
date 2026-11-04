@@ -1,0 +1,7 @@
+# Round 5: the photo screensaver. CleanYourTV reports about 105 MB while it runs. Before applying, switch the
+# screensaver to the plain built-in one (a settings change, it changes a system setting, so decide deliberately):
+#   adb -s $TV shell settings put secure screensaver_components com.android.dreams.basic/.Colors
+# Undo (the value read from this TV before the change, 2026-11-03): adb -s $TV shell settings put secure screensaver_components com.google.android.backdrop/.Backdrop
+# (enable the package first: scripts/cleanup-restore.sh 05-photo-screensaver)
+# Evidence: installed and enabled; not running at the survey. [NEEDS SOURCE] for the 105 MB on this TV.
+com.google.android.backdrop            # photo screensaver

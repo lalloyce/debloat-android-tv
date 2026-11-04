@@ -1,0 +1,8 @@
+# Round 4: apps and background helpers the reference household does not use. Mostly idle now, so little to save today; they cost
+# nothing to remove and cannot start in the background later. Roles are clear from the names.
+# Evidence: all installed and enabled on the TV (2026-11-03 survey); none running at the survey.
+com.amazon.amazonvideo.livingroom      # Prime Video (that household uses YouTube and Netflix)
+com.google.android.play.games          # Play Games
+com.google.android.youtube.tvmusic     # YouTube Music
+com.google.android.syncadapters.calendar # calendar sync
+com.google.android.feedback            # feedback and crash-report helper

@@ -1,0 +1,28 @@
+name: Bug report
+description: Something in the launcher or the scripts does not work
+labels: [bug]
+body:
+  - type: input
+    id: tv
+    attributes:
+      label: TV make, model and Android version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Exact command or steps
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behaviour, with script output
+      description: Remove your IP address and any API key first.
+    validations:
+      required: true
+  - type: textarea
+    id: home
+    attributes:
+      label: Is the stock launcher still disabled? What does the Home check print?
+      description: "`adb shell cmd package resolve-activity --brief -a android.intent.action.MAIN -c android.intent.category.HOME`"

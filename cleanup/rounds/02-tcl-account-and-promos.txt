@@ -1,0 +1,6 @@
+# Round 2: TCL account service and promo rows. Our launcher does not use either.
+# Evidence: PSS on the TV: usercenter 12,177 kB, partnercustomizer 8,384 kB (both running at the survey).
+# CleanYourTV notes that usercenter is switched back on by the system at every boot on some firmware, idle:
+# check after the reboot whether it came back (it counts as a result either way).
+com.tcl.usercenter                     # TCL account
+com.tcl.partnercustomizer              # publishes the "Selected" promo rows (junk app names, seen when reading the launcher rows)

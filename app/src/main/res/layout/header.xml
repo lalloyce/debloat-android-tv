@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Header placement follows CleanYourTV (MIT) launcher/app/src/main/res/layout/activity_main.xml:
+     greeting 12sp over a clock row (clock 52sp, AM/PM 15sp, divider, date 14sp), with the icon row level with it. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="56dp"
+    android:paddingTop="26dp"
+    android:paddingEnd="56dp">
+
+    <LinearLayout
+        android:id="@+id/leftBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/greeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:textColor="#B3FFFFFF"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:textColor="#FFFFFFFF"
+                android:textSize="52sp" />
+
+            <TextView
+                android:id="@+id/amPm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#B3FFFFFF"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/clockDivider"
+                android:layout_width="1dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="#44FFFFFF" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:singleLine="true"
+                android:textColor="#B3FFFFFF"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/leftBlock"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnInputs"
+            style="@style/HeaderIcon"
+            android:contentDescription="@string/inputs"
+            android:src="@drawable/ic_inputs" />
+
+        <ImageButton
+            android:id="@+id/btnNetwork"
+            style="@style/HeaderIcon"
+            android:contentDescription="@string/network"
+            android:src="@drawable/ic_network" />
+
+        <ImageButton
+            android:id="@+id/btnSettings"
+            style="@style/HeaderIcon"
+            android:contentDescription="@string/settings"
+            android:src="@drawable/ic_settings" />
+
+        <ImageButton
+            android:id="@+id/btnApps"
+            style="@style/HeaderIcon"
+            android:contentDescription="@string/apps"
+            android:src="@drawable/ic_apps" />
+    </LinearLayout>
+</RelativeLayout>
