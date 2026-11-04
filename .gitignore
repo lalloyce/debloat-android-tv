@@ -47,3 +47,6 @@ cleanup/measurements/
 # must not be added here, even if docs/ is copied over wholesale.
 docs/superpowers/specs/2026-11-03-tcl-tv-home-design.md
 docs/superpowers/plans/2026-11-03-tcl-tv-home-launcher.md
+
+# Plan files are working notes: ignored from now on. (The cleanup plan was published earlier and stays tracked.)
+docs/superpowers/plans/
