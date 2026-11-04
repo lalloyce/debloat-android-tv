@@ -99,8 +99,11 @@ app/                       the launcher (Java, plain views, package family.tvhom
   src/test/                JVM tests and fixtures
 scripts/                   install, rollback, memory and cleanup scripts, and their fake-adb tests
 cleanup/                   package lists and rounds for the reference TV
+docs/                      what was measured and decided on the reference TV (see below)
 NOTICE                     credits and the licence text of CleanYourTV
 ```
+
+`docs/` is the working record of how this was built, kept as written on 2026-11-03: `acceptance.md` (what was verified on the TV and what was not), `cleanup-results.md` (every round, with measurements in `cleanup-measurements/`), `memory-report.md`, `spike-results.md` (how other apps publish their suggestion rows), `family-remote-guide.md` (using a phone as the remote), and the cleanup design and plan under `superpowers/`. They describe one TV and one household, so treat their numbers as that TV's.
 
 The tiles are TCL-specific (`Tiles.java`: YouTube, Netflix, the TCL Channel app labelled "TCL Movies", and TCL's `com.tcl.tv`). Changing them for another TV is a small edit and a good first contribution.
 

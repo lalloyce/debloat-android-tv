@@ -42,3 +42,8 @@ cleanup/state/
 scripts/env.local.sh
 cleanup/measurements/
 .DS_Store
+
+# Documents that describe the maintainer's household and location. They are kept in the maintainer's private copy and
+# must not be added here, even if docs/ is copied over wholesale.
+docs/superpowers/specs/2026-11-03-tcl-tv-home-design.md
+docs/superpowers/plans/2026-11-03-tcl-tv-home-launcher.md
